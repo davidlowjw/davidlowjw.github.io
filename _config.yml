@@ -9,7 +9,7 @@ description: A blog about technology and stuff related
 # better with square images
 external-image: false
 #picture: https://pbs.twimg.com/profile_images/711109377839661056/NMgv0gk7_400x400.jpg
-picture: assets/images/profile_400x400.jpg
+picture: assets/images/profile_pic.jpg
 
 # If you want to include your resume, set to true
 # and specify source (external or local).
