@@ -1,17 +1,23 @@
 .social-links
-    margin-top: 20px
+    margin-top: 2.5rem
 
     > .link
-        margin: 0
+        margin: 0 8px
         text-decoration: none
         position: relative
         display: inline-block
-        height: 35px
-        width: 35px
+        height: 42px
+        width: 42px
+        border-radius: 50%
+        background: $epsilon
+        transition: all .3s ease
 
         &:hover
+            background: $delta
+            transform: translateY(-2px)
+
             > .icon
-                fill: $delta
+                fill: #fff
 
         &:hover:before
             opacity: 1
