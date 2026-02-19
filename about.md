@@ -4,20 +4,20 @@ layout: page
 ---
 ![Profile Image]({{ site.url }}/{{ site.picture }})
 
-<p>David Low is currently the Co-founder and Chief Data Scientist at Pand.ai, building AI-powered chatbot to disrupt and shape the booming conversational commerce space with Deep Natural Language Processing. He represented Singapore and National University of Singapore (NUS) in Data Science Game'16 at France and clinched top spot among Asia and America teams. Recently David has been invited as a guest lecturer by NUS to conduct masterclasses on applied Machine Learning and Deep Learning topics. Prior to Pand.ai, he was a Data Scientist with Infocomm Development Authority (IDA) of Singapore.  </p>
+<p>David Low is a data science and AI leader based in Singapore, currently leading machine learning initiatives in the telecommunications sector. He was recently recognized as one of the <strong>Top AI Visionary Leaders to Watch in 2026</strong>, honored at the AI Revolution Summit 2026 in Singapore for contributions to advancing AI technology and applications.</p>
 
-<p>Throughout his career, David has engaged in data science projects ranging from Manufacturing, Telco, E-commerce to Insurance industry. Some of his works including sales forecast modeling and influencer detection had won him awards in several competitions and was featured on IDA website and NUS publication. Earlier in his career, David was involved in research collaborations with Carnegie Mellon University (CMU) and Massachusetts Institute of Technology (MIT) on separate projects funded by National Research Foundation and SMART. As a pastime activity, he competed on Kaggle and achieved Top 0.2% worldwide ranking.</p>
+<p>David's recent work includes <strong>PRISM (Proactive Retention Intelligence & Smart Modelling)</strong>, a self-learning AI system that anticipates customer needs and strengthens long-term relationships — recognized as a winner at the <strong>Asian Innovation Excellence Awards 2025</strong>. PRISM integrates OpenAI's GPT-4 and DSPy, identifying 6% more at-risk customers monthly while driving revenue uplift across Consumer Mobile & Broadband.</p>
 
-<h2>Speaking Engagements</h2>
+<p>Previously, David was Co-founder and Chief Data Scientist at Pand.ai, building AI-powered chatbots for conversational commerce using Deep NLP. He has also served as a Data Scientist at the Infocomm Development Authority (IDA) of Singapore and held research collaborations with Carnegie Mellon University (CMU) and Massachusetts Institute of Technology (MIT) on projects funded by the National Research Foundation and SMART.</p>
 
+<p>David represented Singapore and NUS in Data Science Game'16 in France, clinching the top spot among Asia and America teams. He's been invited as a guest lecturer by NUS to conduct masterclasses on applied Machine Learning and Deep Learning. He achieved Top 0.2% worldwide ranking on Kaggle.</p>
+
+<h2>Speaking Engagements (Selected)</h2>
 <ul class="event">
-	<li>Invited speaker at Spark+AI Summit 2018 on topic “The Rise of Conversational AI", San Francisco. </li>
-	<li>Sharing of startup journey at NUS-ISS Alumni Seminar Series 2018, Singapore</li>
-	<li>"Artificial Intelligence, Machine Learning and Deep Learning demystified” at Data Analytics Conference 2018, Manila. </li>
-	<li>"The rise of AI Chatbots" at AI & Big Data Leaders Summit Singapore and Wrangle Conference Malaysia 2017.</li>
-	<li>"Building the next-generation Conversational AI with Python and Deep Learning" at Melbourne, PyCon AU 2017.</li>
-	<li>"Building Smarter Chatbots with Deep Learning" at Deep Learning in Finance Summit 2017, Singapore. </li>
-	<li>Invited panelist to "Making Sense of Data Science" workshop, NTUC Singapore.</li>
+    <li>Spark+AI Summit 2018 – "The Rise of Conversational AI", San Francisco</li>
+    <li>PyCon AU 2017 – "Building the next-generation Conversational AI with Python and Deep Learning", Melbourne</li>
+    <li>Deep Learning in Finance Summit 2017 – "Building Smarter Chatbots with Deep Learning", Singapore</li>
+    <li>AI Revolution Summit 2026 – AI Visionary Leader recognition</li>
 </ul>
 
 
