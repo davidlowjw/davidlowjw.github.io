@@ -15,7 +15,7 @@ headerImage: false
 hidden: false
 ---
 
-Recently, my home AI inference server -- a GMKTEC EVO X2 AI Mini PC powered by an AMD Ryzen AI MAX+ 395 with 128 GB of unified LPDDR5X memory -- silently froze after 49 hours of uptime. No warning. No crash dump. No kernel panic. The system journal, which faithfully records every event on a Linux machine, just... stopped. One moment it was logging a routine data collection. Twenty minutes later, I was standing at the machine holding the power button.
+Recently, my home AI inference server -- a GMKTEC EVO X2 AI Mini PC (AMD Ryzen AI MAX+ 395 with 128 GB unified memory) -- silently froze after 49 hours of uptime. No warning. No crash dump. No kernel panic. The system journal, which faithfully records every event on a Linux machine, just... stopped. One moment it was logging a routine data collection. Twenty minutes later, I was standing at the machine holding the power button.
 
 SSH was dead. The network was unreachable. My first instinct was to blame a network outage or maybe overheating. But when I sat down to investigate after the hard reboot, neither turned out to be true. Temperature had been a cool 37°C. Memory was only 15% utilized. There was no out-of-memory event, no thermal throttle, nothing obvious.
 
@@ -35,7 +35,7 @@ But unlike a managed cloud GPU instance, nobody is monitoring your local server 
 
 AI inference workloads are also **bursty** in a way that traditional server loads aren't. A large model loading into memory can consume 60 GB of RAM in seconds. A batch of concurrent requests can pin every CPU core while the model generates tokens. These spikes happen fast, and they resolve fast. A monitoring system that samples every 10 minutes will miss most of them entirely.
 
-My GMKTEC EVO X2 runs an AMD Ryzen AI MAX+ 395 with 128 GB of unified LPDDR5X memory and an integrated Radeon 8060S GPU with 40 compute units. Thanks to AMD's Variable Graphics Memory, the GPU can dynamically claim up to 96 GB of that shared memory pool as VRAM -- enough to load a 70B-parameter model entirely on-device. It's not a datacenter machine -- it sits on my desk. But it runs real workloads, and when it goes down, I need to know why. That's the whole point of monitoring: not pretty graphs, but **answers after something goes wrong**.
+The GMKTEC EVO X2 runs an AMD Ryzen AI MAX+ 395 with 128 GB of unified LPDDR5X memory and an integrated Radeon 8060S GPU with 40 compute units. Thanks to AMD's Variable Graphics Memory, the GPU can dynamically claim up to 96 GB of that shared memory pool as VRAM -- enough to load a 70B-parameter model entirely on-device. It's not a datacenter machine -- it sits on my desk. But it runs real workloads, and when it goes down, I need to know why. That's the whole point of monitoring: not pretty graphs, but **answers after something goes wrong**.
 
 ---
 
