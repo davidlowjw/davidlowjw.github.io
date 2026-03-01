@@ -1,7 +1,7 @@
 ---
 title: "My AI Server Froze and I Couldn't Tell You Why -- Here's What I Fixed"
 layout: post
-date: 2026-03-01 21:00
+date: 2026-03-01 12:00
 tag:
 - linux
 - monitoring
