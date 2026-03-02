@@ -22,6 +22,10 @@ Recently, Cursor cofounder Michael Truell shared data showing how agent usage ha
 
 That chart is telling.
 
+![Agents requests per tab accept trend, Jan 2025 to Jan 2026](/assets/images/posts/agents-default-chart.jpg)
+
+*Agent requests per tab accept rising through 2025 and crossing 1x by Jan 2026 — the point where agent workflows overtake tab completion.*
+
 It shows agent requests per tab accept climbing steadily through 2025, eventually crossing 1x. In other words, developers are triggering full agent workflows more often than accepting inline completions.
 
 That is a profound behavioural shift.
