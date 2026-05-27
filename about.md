@@ -12,15 +12,6 @@ layout: page
 
 <p>David represented Singapore and NUS in Data Science Game'16 in France, clinching the top spot among Asia and America teams. He's been invited as a guest lecturer by NUS to conduct masterclasses on applied Machine Learning and Deep Learning. He achieved Top 0.2% worldwide ranking on Kaggle.</p>
 
-<h2>Speaking Engagements (Selected)</h2>
-<ul class="event">
-    <li>Spark+AI Summit 2018 – "The Rise of Conversational AI", San Francisco</li>
-    <li>PyCon AU 2017 – "Building the next-generation Conversational AI with Python and Deep Learning", Melbourne</li>
-    <li>Deep Learning in Finance Summit 2017 – "Building Smarter Chatbots with Deep Learning", Singapore</li>
-    <li>AI Revolution Summit 2026 – AI Visionary Leader recognition</li>
-</ul>
-
-
-
-
+<h2>Speaking</h2>
+<p>See selected talks and speaking engagements on the <a href="{{ site.url }}/speaking">Speaking page</a>.</p>
 
