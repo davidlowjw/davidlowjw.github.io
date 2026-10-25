@@ -66,10 +66,11 @@ p{text-wrap:pretty}
 .figures{background:var(--accent);color:#fff;padding:80px 0}
 .figures .eyebrow{color:rgba(255,255,255,.7)}
 .figures .eyebrow span{color:#fff}
-.figs{display:grid;grid-template-columns:repeat(4,1fr);gap:0;margin:0}
+.figs{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:0;margin:0}
 .fig{padding:24px 24px 8px 0;border-top:1px solid rgba(255,255,255,.3)}
 .fig + .fig{padding-left:24px;border-left:1px solid rgba(255,255,255,.18)}
-.fig dt{font-size:clamp(48px,6vw,96px);line-height:1;font-weight:700;font-stretch:115%;letter-spacing:-.03em;font-variant-numeric:tabular-nums}
+.fig dt{white-space:nowrap;font-size:clamp(44px,5.4vw,72px);line-height:1;font-weight:700;font-stretch:100%;letter-spacing:-.03em;font-variant-numeric:tabular-nums}
+.fig .unit{font-size:.5em;vertical-align:.7em;margin-right:4px;letter-spacing:0}
 .fig dd{margin:16px 0 0;font-size:16px;line-height:24px;color:rgba(255,255,255,.82);max-width:260px}
 .fn{text-decoration:none;font-size:12px;margin-left:2px;color:inherit;opacity:.75}
 .fn:hover{opacity:1;text-decoration:underline}
