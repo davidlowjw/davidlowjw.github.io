@@ -141,7 +141,7 @@ sup{line-height:0}
 @media (max-width:700px){.award-photo img{aspect-ratio:4/3;object-position:62% 40%}}
 
 /* Press */
-.press-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:16px}
+.press-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}
 .press{display:flex;flex-direction:column;justify-content:space-between;gap:24px;min-height:184px;padding:24px;background:var(--paper);border:1px solid var(--line);border-radius:16px;text-decoration:none;transition:transform .7s var(--ease),border-color .7s var(--ease)}
 .press:hover{transform:translateY(-2px);border-color:#C9CDC6}
 .press__logo{height:56px;display:flex;align-items:center}
