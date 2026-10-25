@@ -45,11 +45,11 @@
   var links = {}; document.querySelectorAll('.bar__nav a').forEach(function (a) { links[a.getAttribute('href').slice(1)] = a; });
   var so = new IntersectionObserver(function (es) {
     es.forEach(function (e) {
-      if (e.isIntersecting && links[e.target.id]) {
-        Object.keys(links).forEach(function (k) { links[k].classList.remove('is-active'); });
-        links[e.target.id].classList.add('is-active');
-      }
+      if (!e.isIntersecting) return;
+      Object.keys(links).forEach(function (k) { links[k].classList.remove('is-active'); });
+      if (links[e.target.id]) links[e.target.id].classList.add('is-active');
     });
   }, { rootMargin: '-45% 0px -50% 0px' });
   Object.keys(links).forEach(function (id) { var s = document.getElementById(id); if (s) so.observe(s); });
+  document.querySelectorAll('.hero, .quote, .contact').forEach(function (s) { so.observe(s); });
 })();
