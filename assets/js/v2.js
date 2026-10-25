@@ -1,43 +1,6 @@
 (function () {
   var reduce = window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches;
 
-  /* Cover art: 1,000 points drifting into a grid (one per migrated user). */
-  var c = document.getElementById('cover');
-  if (c && c.getContext) {
-    var ctx = c.getContext('2d'), N = 1000, pts = [], W, H, dpr, t0 = null;
-    function size() {
-      dpr = Math.min(window.devicePixelRatio || 1, 2);
-      W = c.clientWidth; H = c.clientHeight;
-      c.width = W * dpr; c.height = H * dpr; ctx.setTransform(dpr, 0, 0, dpr, 0, 0);
-      var cols = 50, rows = 20, gx = (W - 64) / (cols - 1), gy = (H - 96) / (rows - 1);
-      pts = [];
-      for (var i = 0; i < N; i++) {
-        var col = i % cols, row = Math.floor(i / cols);
-        var r = 0.5 + Math.random() * 0.5, a = Math.random() * Math.PI * 2;
-        pts.push({
-          sx: W / 2 + Math.cos(a) * r * W * 0.45, sy: H / 2 + Math.sin(a) * r * H * 0.45,
-          tx: 32 + col * gx, ty: 32 + row * gy,
-          d: (col + row) / (cols + rows), hi: Math.random() < 0.06
-        });
-      }
-    }
-    function ease(x) { return 1 - Math.pow(1 - x, 4); }
-    function draw(ts) {
-      if (t0 === null) t0 = ts;
-      var t = reduce ? 1 : Math.min((ts - t0) / 2600, 1);
-      ctx.clearRect(0, 0, W, H);
-      for (var i = 0; i < pts.length; i++) {
-        var p = pts[i], k = ease(Math.max(0, Math.min(1, t * 1.6 - p.d * 0.6)));
-        var x = p.sx + (p.tx - p.sx) * k, y = p.sy + (p.ty - p.sy) * k;
-        ctx.fillStyle = p.hi ? 'rgba(122,214,170,' + (0.5 + 0.5 * k) + ')' : 'rgba(255,255,255,' + (0.25 + 0.45 * k) + ')';
-        ctx.beginPath(); ctx.arc(x, y, p.hi ? 2.2 : 1.5, 0, 6.2832); ctx.fill();
-      }
-      if (t < 1) requestAnimationFrame(draw);
-    }
-    size(); requestAnimationFrame(draw);
-    var rt; window.addEventListener('resize', function () { clearTimeout(rt); rt = setTimeout(function () { size(); t0 = null; reduce = true; requestAnimationFrame(draw); }, 150); });
-  }
-
   if (!('IntersectionObserver' in window)) return;
 
   /* Count up key figures */
