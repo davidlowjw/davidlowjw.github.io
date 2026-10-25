@@ -24,7 +24,7 @@
   var rv = new IntersectionObserver(function (es) {
     es.forEach(function (e) { if (e.isIntersecting) { e.target.classList.add('in'); rv.unobserve(e.target); } });
   }, { rootMargin: '0px 0px -10% 0px' });
-  document.querySelectorAll('.h2, .card, .rows li, .post, .press, .prose, .contact__h').forEach(function (el) { el.classList.add('rv'); rv.observe(el); });
+  document.querySelectorAll('.h2, .card, .rows li, .post, .press, .award, .prose, .contact__h').forEach(function (el) { el.classList.add('rv'); rv.observe(el); });
 
   /* Word by word quote reveal */
   document.querySelectorAll('.reveal-words').forEach(function (p) {
