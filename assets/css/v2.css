@@ -53,6 +53,10 @@ p{text-wrap:pretty}
 .hero__ctas{display:flex;align-items:center;gap:24px;margin-top:40px}
 .hero__photo{aspect-ratio:4/5}
 
+.next{display:inline-flex;align-items:center;gap:8px;margin-top:24px;font-size:14px;line-height:20px;font-weight:600;color:var(--ink-2);text-decoration:none;border:1px solid var(--line);border-radius:999px;padding:4px 12px 4px 4px;transition:border-color .5s var(--ease),color .5s var(--ease)}
+.next .pill{margin-left:0;vertical-align:0}
+.next:hover{border-color:var(--accent);color:var(--ink)}
+
 /* Eyebrow + headings */
 .eyebrow{font-size:14px;line-height:20px;font-weight:600;letter-spacing:.04em;text-transform:uppercase;color:var(--ink-3);margin:0 0 16px;display:flex;gap:12px;align-items:center}
 .eyebrow span{color:var(--accent);font-variant-numeric:tabular-nums}
