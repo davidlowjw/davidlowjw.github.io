@@ -1,9 +1,9 @@
 # main text of home
 name: David Low
-bio: Director of AI & Machine Learning @ Singtel | Chief AI Officer @ Heyhi | NUS Outstanding Young Alumni '21. Obsessed with making AI work in the real world.
+bio: Head of Technology at Vertex Holdings and fractional Chief AI Officer at HeyHi. 15+ years building AI, data science and technology teams in Singapore.
 
 # twitter summary info
-description: A blog about technology and stuff related
+description: David Low, Head of Technology at Vertex Holdings and fractional Chief AI Officer at HeyHi. Notes on building AI that gets used.
 
 # if it's an external image, update below for true
 # better with square images
@@ -17,7 +17,7 @@ resume: true
 resume-external: true
 resume-url: http://linkedin.com/in/davidlowjw/
 
-url: https://davidlowjw.github.io
+url: https://davidlow.ai
 # your url: http://USERNAME.github.io
 
 permalink: /:title/
@@ -57,7 +57,7 @@ email: davidlowjw@gmail.com
 authors:
     davidlow:
         name: David Low
-        bio: Director of AI & Machine Learning @ Singtel | Chief AI Officer @ Heyhi
+        bio: Head of Technology, Vertex Holdings | Fractional Chief AI Officer, HeyHi
         external-image: false
         picture: assets/images/profile_pic.jpg
         twitter: davidlowjw
@@ -97,7 +97,15 @@ show-author: true
 # do you want some animations?
 animation: true
 
+image: /assets/img/v2/og.jpg
+logo: /assets/images/favicon/favicon-196x196.png
+social:
+  name: David Low
+  links:
+    - https://www.linkedin.com/in/davidlowjw/
+    - https://github.com/davidlowjw
 plugins:
+  - jekyll-sitemap
   - jekyll-seo-tag
   - jekyll-gist
   - jekyll-feed

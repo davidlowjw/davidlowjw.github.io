@@ -176,6 +176,11 @@ sup{line-height:0}
 .contact__ctas{display:flex;flex-wrap:wrap;gap:12px;margin-top:40px}
 
 /* Notes + footer */
+.faq{margin:0;border-top:1px solid var(--ink);max-width:900px}
+.faq__item{padding:20px 0;border-bottom:1px solid var(--line)}
+.faq dt{font-size:20px;line-height:28px;font-weight:600;margin-bottom:6px}
+.faq dd{margin:0;color:var(--ink-2)}
+.faq dd a{color:var(--ink)}
 .notes{padding:48px 0;border-bottom:1px solid var(--line)}
 .notes ol{margin:0;padding-left:20px;color:var(--ink-3);font-size:14px;line-height:20px;max-width:900px}
 .notes li{margin-bottom:8px}

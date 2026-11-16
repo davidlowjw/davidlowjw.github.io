@@ -1,0 +1,30 @@
+# David Low
+
+> David Low is Head of Technology at Vertex Holdings in Singapore and fractional Chief AI Officer at HeyHi. He has 15+ years in AI, data science and technology leadership. Previously Director of AI & Machine Learning at Singtel.
+
+## Current roles
+- Head of Technology, Vertex Holdings: leads the technology and Labs functions, including the proprietary investment platform, AI capabilities, corporate IT and cybersecurity. Source: https://vertexholdings.com/team/
+- Fractional Chief AI Officer, HeyHi: AI strategy for a Singapore edtech platform. https://www.heyhi.sg/
+
+## Previous roles
+- Director, AI & Machine Learning, Singtel: led enterprise AI initiatives and scaled machine learning serving millions of customers; delivered the PRISM retention system and a ten month Cloudera to Azure Databricks migration (60+ data apps, 90+ ML workloads, 160+ dashboards, 1,000+ users).
+- Head of Data Science, CardsPal (Standard Chartered Ventures backed fintech)
+- Co-founder & Chief Data Scientist, Pand.ai (conversational AI for financial institutions)
+- Data Scientist, Infocomm Development Authority of Singapore
+
+## Awards
+- Emerging Leaders Award, The CIO Room Singapore 2026: https://www.linkedin.com/posts/thecioroom-singapore-visionawards-share-7526223560693121024-2x5z/
+- Top AI Visionary Leaders to Watch in 2026, AI Revolution Summit Singapore: https://airevolutionsummit.com/singapore/
+- Two Golds for Singtel, CCAS GCX Awards 2026 (Best AI Mastery in CX; Best CX Insights & Analytics Organisation): https://ccas.org.sg/awards/
+- Winner, Asian Innovation Excellence Awards 2025 (Singtel PRISM): https://asianbusinessreview.com/co-written-partner/event-news/singtel-takes-home-accolade-asian-innovation-excellence-awards-2025
+- NUS Outstanding Young Alumni Award 2021: https://news.nus.edu.sg/largest-cohort-of-outstanding-alumni-honoured-at-nus-alumni-awards-2021/
+
+## Pages
+- [Home](https://davidlow.ai/): profile, roles, awards, speaking, media and writing
+- [About](https://davidlow.ai/about/): longer bio
+- [Speaking](https://davidlow.ai/speaking/): talks and panels
+- [Blog](https://davidlow.ai/blog/): notes from building
+
+## Links
+- LinkedIn: https://www.linkedin.com/in/davidlowjw/
+- GitHub: https://github.com/davidlowjw
