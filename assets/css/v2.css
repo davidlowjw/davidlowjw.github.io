@@ -130,6 +130,7 @@ sup{line-height:0}
 .award-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:16px}
 .award{display:flex;flex-direction:column;gap:32px;padding:32px 24px 24px;background:var(--paper);border:1px solid var(--line);border-radius:16px;text-decoration:none;transition:transform .7s var(--ease),border-color .7s var(--ease)}
 .award:hover{transform:translateY(-2px);border-color:#C9CDC6}
+.award:last-child:nth-child(odd){grid-column:1/-1}
 .award__logo{height:64px;display:flex;align-items:center}
 .award__logo img{max-width:100%;height:auto}
 .award__body{display:flex;flex-direction:column;gap:4px;margin-top:auto}
