@@ -36,7 +36,8 @@ disqus:
 
 # if you don't have any of social below, comment the line
 #facebook: myfacebook
-twitter: davidlowjw
+twitter:
+  username: davidlowjw
 # google: mygoogle
 # instagram: myinstagram
 # pinterest: mypinterest
@@ -97,7 +98,11 @@ show-author: true
 # do you want some animations?
 animation: true
 
-image: /assets/img/v2/og.jpg
+defaults:
+  - scope:
+      path: ""
+    values:
+      image: /assets/img/v2/og.jpg
 logo: /assets/images/favicon/favicon-196x196.png
 social:
   name: David Low
